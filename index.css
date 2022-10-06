@@ -1,0 +1,157 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+body {
+    line-height: 1.5;
+    font-family: "arial", "sans-serif";
+    background-color: #1F1F1F;
+}
+
+.wrapper {
+    width: 100%;
+}
+
+
+/*Header*/
+
+#header {
+    background-color: white;
+}
+
+#header img {
+    float: left;
+    margin: 0px 0px 2px 10px;
+}
+
+#header p {
+    float: right;
+    margin: 40px 10px 0px 0px;
+    font-weight: bold;
+}
+
+
+/*Nav-bar*/
+
+#navbar {
+    clear: both;
+    background-color: #DDE3E7;
+    height: 50px;
+    border-top: 1px solid black;
+}
+
+#navbar ul {
+    margin-left: 20px;
+    padding: 10;
+}
+
+#navbar ul li {
+    display: inline;
+    padding: 3px 20px;
+    border-left: 1px solid grey;
+    text-decoration: none;
+}
+
+#navbar ul li a {
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #666666;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+h2 {
+    background-color: #FED259;
+    font-weight: bold;
+    color: black;
+    font-size: 13px;
+    padding: 5px 10px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+#building {
+    float: left;
+    width: 35%;
+    margin: 15px 10px 5px 25px;
+}
+
+#about {
+    float: left;
+    width: 905px;
+    height: 365px;
+    background-color: grey;
+    color: white;
+    margin: 15px 0px 0px 10px;
+    font-size: 16px;
+}
+
+h3 {
+    font-size: 14px;
+    font-weight: bold;
+    margin: 5px 10px;
+}
+
+#about p {
+    margin: 10px;
+}
+
+#midline {
+    clear: both;
+}
+
+#midline img {
+    float: left;
+    margin: 3px 25px;
+    width: 3%;
+}
+
+#midline p {
+    font-size: 12px;
+    color: olive;
+    padding: 5px 10px;
+}
+
+.box {
+    float: left;
+    width: 335px;
+    height: 355px;
+    border: 1px solid grey;
+    margin: 15px 5px 20px 30px;
+    font-size: 16px;
+    background-color: white;
+}
+
+.box img {
+    width: 100%;
+}
+
+.box p {
+    margin: 5px 10px;
+    font-size: 14px;
+}
+
+.box a {
+    float: right;
+    margin-right: 15px;
+    background-color: #FFC629;
+    color: black;
+    text-decoration: none;
+    padding: 2px 10px 5px 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+    border-bottom-right-radius: 180px;
+    border-top-right-radius: 180px;
+}
